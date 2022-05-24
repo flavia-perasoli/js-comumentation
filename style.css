@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Arial;
+    line-height: 1.5;
+    color: #4d4e53;
+  }
+  
+  main{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+  }
+  
+  .header-doc{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  
+  header{
+    color: black;
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  
+  
+  nav {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    cursor: pointer;  
+  }
+  
+  .options{
+    padding: 0;
+  }
+  
+  .options li{
+    list-style-type: none;
+    border-top: 1px solid black;
+    padding: 10px;
+  }
+  
+  .options a{
+    text-decoration: none;
+    color: #4d4e53;
+    font-size: 16px; 
+    font-family: Open Sans;
+  }
+  
+  article{
+    margin: 15px;
+  }
+  
+  p{
+   margin-top: 15px;
+   margin-bottom: 15px;
+  }
+  
+  .introduction li{
+    padding: 10px;
+  }
+  
+  .wysak li{
+    padding: 10px;
+  }
+  
+  code{
+      display: block;
+      text-align: left;
+      position: relative;
+      word-break: normal;
+      word-wrap: normal;
+      line-height: 2;
+      background-color: #f7f7f7;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 5px;
+  }
